@@ -3,11 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <style>
+      * {
+        height: 100%;
+        width: 100%;
+
+        margin: 0;
+        padding: 0;
+      }
+    </style>
   </head>
   <body>
+    <div id="root">
+      <canvas id="canvas"></canvas>
+    </div>
     <script src="./lib/html-parser.js"></script>
     <script src="./lib/css-parser.js"></script>
     <script src="./lib/render-tree.js"></script>
     <script src="./lib/layout.js"></script>
+    <script src="./lib/painter.js"></script>
   </body>
 </html>
